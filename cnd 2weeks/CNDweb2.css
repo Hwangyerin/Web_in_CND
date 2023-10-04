@@ -1,0 +1,23 @@
+/*태그를 사용한 스타일 적용*/
+p {
+    color: red;
+    font-weight: bold;
+    
+}
+/*고유 닉네임을 사용한 스타일 적용*/
+#a {
+    color:aqua;
+    font-size: 52px; 
+    font-family: 'Dela Gothic One', cursive; 
+    /*font-family: '적용 할 폰트 이름', 적용이 안 되었을 때 적용될 폰트;*/
+    /*google fonts css*/
+}
+a {
+    color:rgb(red, green, blue);
+    text-decoration: none; /*밑줄 제거*/
+    cursor: pointer; /*커서가 닿았을 때 포인터로 모양 변경*/
+}
+/*마우스가 닿았을 때*/
+a:hover {
+    text-decoration: underline; /*글자 밑에 줄 생성*/
+}
